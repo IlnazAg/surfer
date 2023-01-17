@@ -1,6 +1,8 @@
 .hero {
-    background: url("../img/background.svg") no-repeat;
-    background-size: 100%;
+    background: url("../img/background.svg");
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
     height: 100vh;
     min-height: 650px;
     color: $white;
