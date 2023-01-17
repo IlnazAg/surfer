@@ -75,8 +75,10 @@ img {
 }
 
 .hero {
-  background: url("../img/background.svg") no-repeat;
-  background-size: 100%;
+  background: url("../img/background.svg");
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
   height: 100vh;
   min-height: 650px;
   color: #FFFFFF;
@@ -490,7 +492,8 @@ img {
 .order-section {
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5))), url(../img/background__form.png);
   background: linear-gradient(rgba(0, 0, 0, 0.5)), url(../img/background__form.png);
-  background-size: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .radio {
@@ -585,5 +588,6 @@ img {
 
 .map-section {
   background: url("../img/map.svg");
-  background-size: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
