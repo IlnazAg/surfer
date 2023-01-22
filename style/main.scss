@@ -1,18 +1,22 @@
 $containerWidth: 940px;
 $baseFontSize: 18px;
 
+$tablets: 768px;
+$phones: 480px;
+
 $z-fixed-menu: 100;
 
 $black: #292929;
 $yellow: #FEDB3F;
 $white: #FFFFFF;
 
-
+@import "blocks/media";
 @import url("https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css");
 @import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@400;500;700&family=Open+Sans:wght@300;400;600&display=swap');
 @import "layout";
 @import "blocks/hero";
 @import "blocks/header";
+@import "blocks/menu";
 @import "blocks/features";
 @import "blocks/feature";
 @import "blocks/btn";
@@ -27,3 +31,5 @@ $white: #FFFFFF;
 @import "blocks/radio";
 @import "blocks/fixed-menu";
 @import "blocks/map-section";
+@import "blocks/hamburger";
+@import "blocks/footer";

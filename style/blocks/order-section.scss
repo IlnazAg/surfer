@@ -3,5 +3,10 @@
 	url(../img/background__form.png);
     background-size: cover;
     background-repeat: no-repeat;
-}
 
+    @include tablets {
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 42% 0%;
+    } 
+}
