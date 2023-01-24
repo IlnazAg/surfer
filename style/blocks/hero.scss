@@ -1,5 +1,5 @@
 .hero {
-    background: url("../img/background.svg");
+    background-image: url("../img/background.png");
     background-position: top;
     background-size: cover;
     background-repeat: no-repeat;
@@ -8,18 +8,13 @@
     color: $white;
 
     @include tablets {
-        background-position: 100% 90%;
-        background-size: auto;
-    }
-
-    @include phones {
-        background-position: 85% 120%;
-        background-size: auto;
+        background-image: none;
     }
 }
 
 .hero__title-section {
     width: 41%;
+
     @include tablets {
         width: 100%;
         flex: 1;
@@ -29,7 +24,11 @@
         align-items: center;
         text-align: center;
 
-
+        background: url("../img/background.png");
+        background-position: top;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 80%;
     }
 }
 
@@ -63,11 +62,19 @@
     }
 
     @include phones {
-        font-size: 28px;;
+        font-size: 28px;
+        padding: 2%;
     }
 }
 
 .hero__title-desc {
     font-size: rem(21px);
     margin-bottom: rem(44px);
+    min-width: rem(361px);
+
+    @include tablets {
+        min-width: 0;
+        padding-left: 2%;
+        padding-right: 2%;
+    }
 }

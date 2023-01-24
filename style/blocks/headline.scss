@@ -14,9 +14,10 @@
 .headline__subtitle {
     padding: 0 16%;
     letter-spacing: rem(1px);
-    margin-bottom: rem(50px);
+    
 
     @include phones {
         padding: 0 5%;
+        margin-bottom: rem(25px);
     }
 }

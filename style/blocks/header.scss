@@ -17,7 +17,17 @@
 }
 
 .logo {
+    width: 56px;
+    height: 40px;
+    min-height: 40px;
+    min-width: 56px;
+
     @include tablets {
         margin-left: 30px;
     }
+}
+
+.phone-number__icon {
+    height: 14px;
+    width: 13px;
 }
